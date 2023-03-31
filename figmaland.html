@@ -19,7 +19,7 @@
                 <li class="nav-link"><a href="figmaland.html#home">Home</a></li>
                 <li class="nav-link"><a href="figmaland.html#product">Product</a> </li>
                 <li class="nav-link"><a href="figmaland.html#about">About</a></li>
-                <li class="nav-link"><a href="#">Contact</a></li>
+                <li class="nav-link"><a href="figmaland.html#contact">Contact</a></li>
             </ul>
         </nav>
         <div class="btn-container">
@@ -251,10 +251,58 @@
     </section>
     <hr class="line-separate">
     <div class="container">
-        <div class="subscribe-container">
-
+        <div class="head-container">
+            <h2 style="margin-bottom: 20px;">Subscribe</h2>
+            <p>Subscribe to get exclusive news & offer</p>
         </div>
+        <form action="static.html" id="form" target="_blank">
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required autocomplete="off">
+            <button class="subscribe" type="submit">Subscribe</button>
+        </form>
     </div>
+    <section id="contact">
+        <footer id="footer">
+            <div class="link-container">
+                <div class="row">
+                    <div class="links">
+                        <ul>
+                            <li class="footer-links"><a href="#">Price Item One</a></li>
+                            <li class="footer-links"><a href="#">Price Item Two</a></li>
+                            <li class="footer-links"><a href="#">Price Item Three</a></li>
+                        </ul>
+                    </div>
+                    <div class="links">
+                        <ul>
+                            <li class="footer-links"><a href="#">Price Item One</a></li>
+                            <li class="footer-links"><a href="#">Price Item Two</a></li>
+                            <li class="footer-links"><a href="#">Price Item Three</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="credit">
+                    <p>Copyright © 2023 Figma Land. All rights Reserved.</p>
+                </div>
+            </div>
+            <div class="map-container">
+                <img src="img/map.png" alt="">
+            </div>
+            <div class="contacts">
+                <div class="row-2">
+                    <img src="img/location.png" alt="">
+                    <p>7480 Mockingbird Hill undefined</p>
+                </div>
+                <div class="row-2">
+                    <img src="img/phone.png" alt="" style="width: 20px;">
+                    <p>(239) 555-0108</p>
+                </div>
+                <div class="row-2">
+                    <a href="#" class="socials"><img src="img/twitter.png" alt=""></a>
+                    <a href="#" class="socials"><img src="img/facebook.png" alt=""></a>
+                    <a href="#" class="socials"><img src="img/linkedin.png" alt=""></a>
+                </div>
+            </div>
+        </footer>
+    </section>
     <script>
         window.addEventListener("scroll", function() {
             const navbar = document.getElementById("header");
